@@ -1,0 +1,117 @@
+.card .icons i{ 
+  font-size: 33px;
+  color: #972070;
+  background: rgba(151, 32, 112, .1);
+  border-radius: 100%;
+  padding: 3px;
+  border: 1px solid rgba(151, 32, 112, .1);
+}
+.report-box .progress {
+  height: .8rem;
+}
+.report-box  .progress-bar.bg-success{
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.report-box  .progress-bar.bg-danger{
+  background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.report-box .progress-bar.bg-warning{
+  background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#calendar {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+    position: relative;
+    z-index: 0;
+  }
+  #calendar #day-labels {
+    width: 100%;
+    border-bottom: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+    overflow: auto;
+  }
+  #calendar #day-labels .label {
+    width: 14.285714286%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #7a7a7a;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  #calendar #day-labels .label i {
+      font-size: 24px;
+
+  }
+  #calendar #day-labels .month {
+      color:#001737;
+  }
+  #calendar .week {
+    width: 100%;
+    overflow: hidden;
+  }
+  #calendar .week .day {
+    width: 14.285714286%;
+    padding-bottom: 14.285714286%;
+    border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    height: 0px;
+    float: left;
+    position: relative;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  #calendar .week .day .date {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  #calendar .week .day .date.today {
+    color: white;
+    background: #cd1b1b;
+  }
+
+  #calendar .week .day:first-of-type, #calendar .week .day:last-of-type {
+    background-color: #f5f9fa;
+  }
+  #calendar .week .day:first-of-type.noDate:hover, #calendar .week .day:last-of-type.noDate:hover {
+    background-color: rgba(235, 235, 235, 0.95);
+    cursor: default;
+  }
+  #calendar .week .day:hover {
+    background-color: #972070;
+    cursor: pointer;
+  }
+  #calendar .week .day:hover.noDate {
+    background: rgba(255, 255, 255, 0.95);
+    cursor: default;
+  }
+  #calendar .week .day:hover .date {
+    color: #cfdef4;
+  }
+  #calendar .week .day:hover .date.today {
+    background: #cfdef4;
+    color: #305dd4;
+  }
+ .report-box-info { font-size: 13px;}

@@ -1,0 +1,77 @@
+.hs-tablelayout {
+	.table {
+		td {
+			border-top: 1px solid #ecebeb;
+			vertical-align: middle;
+		}
+		th {
+			border-top: none;
+			border-bottom: 1px solid #ecebeb;
+			background: #f5f9fa;
+		}
+		tr {
+			td {
+				.action {
+					a {
+						font-size: 14px;
+						background: #f5f9fa;
+						border-radius: 100px;
+						width: 25px;
+						height: 25px;
+						line-height: 25px;
+						display: inline-block;
+						text-align: center;
+						margin: 2px;
+						color: #212529;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	}
+	.card {
+		.card-header {
+			.add {
+				i {
+					font-size: 17px;
+					background: #972070;
+					color: #fff;
+					border-radius: 100px;
+					padding: 3px;
+				}
+			}
+		}
+	}
+	.page-item.active {
+		.page-link {
+			background-color: #972070;
+            border-color: #972070;
+            color:#fff;
+		}
+	}
+	.page-link {
+		color: #972070;
+	}
+	.pagination {
+		li {
+			a {
+				border-radius: 50% !important;
+				margin: 0 5px;
+				width: 32px;
+				height: 32px;
+				line-height: 32px;
+				text-align: center;
+				padding: 0px;
+			}
+			span {
+				border-radius: 50% !important;
+				margin: 0 5px;
+				width: 32px;
+				height: 32px;
+				line-height: 32px;
+				text-align: center;
+				padding: 0px;
+			}
+		}
+	}
+}
